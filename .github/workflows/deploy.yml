@@ -1,4 +1,7 @@
-# Replace the entire file
+# Create the workflows directory first
+mkdir -p .github/workflows
+
+# Create the file
 cat > .github/workflows/deploy.yml << 'EOF'
 name: Deploy to GitHub Pages
 on:
